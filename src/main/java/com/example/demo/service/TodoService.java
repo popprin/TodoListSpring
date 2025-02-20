@@ -44,5 +44,6 @@ public class TodoService {
 	
 	public void test(Long id) {
 		System.err.println("test");
+		System.err.println("test2");
 	}
 }

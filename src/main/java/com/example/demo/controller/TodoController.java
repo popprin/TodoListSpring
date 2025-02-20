@@ -2,8 +2,6 @@ package com.example.demo.controller;
 
 import java.util.List;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.TodoEntity;
-import com.example.demo.repository.TodoRepository;
 import com.example.demo.service.TodoService;
 
 @RestController

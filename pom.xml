@@ -55,10 +55,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- SIT -->
+		
 		<dependency>
 			<groupId>com.ktb.webservice</groupId>
-			<artifactId>Webservice_CBS_SIT</artifactId>
+			<artifactId>Webservice_CBS_UAT</artifactId>
 			<version>20220815</version>
 		</dependency>
 	</dependencies>

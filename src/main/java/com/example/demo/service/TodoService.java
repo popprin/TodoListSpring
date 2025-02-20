@@ -41,4 +41,9 @@ public class TodoService {
 		TodoEntity updateList = todoRepository.save(todo);
 		return updateList;
 	}
+	
+	public void test(Long id) {
+		System.err.println("test");
+		System.err.println("test2");
+	}
 }

@@ -58,7 +58,7 @@
 		
 		<dependency>
 			<groupId>com.ktb.webservice</groupId>
-			<artifactId>Webservice_CBS_UAT</artifactId>
+			<artifactId>Webservice_CBS_SIT</artifactId>
 			<version>20220815</version>
 		</dependency>
 	</dependencies>

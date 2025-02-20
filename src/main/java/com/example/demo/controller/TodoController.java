@@ -24,6 +24,7 @@ public class TodoController {
 	
 	@GetMapping("/api/read")
 	public List<TodoEntity> getAll() {
+		System.err.println("test");
 		return todoService.getList();
 	}
 	
